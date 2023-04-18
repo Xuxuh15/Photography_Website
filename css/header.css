@@ -1,0 +1,23 @@
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    text-align: left; 
+    color: black; 
+}
+
+ul{
+    background-color: rgb(240, 248, 255,0.9);
+    width: 95%;
+    height:20px;
+}
+
+li{
+    display: inline;
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 90%;
+    height: 80%;
+    padding-left: 1em;
+    margin-right: 1em;
+    margin-top: 5%;
+    margin-bottom: 5%; 
+}

@@ -1,0 +1,77 @@
+body{
+    height: 90%;
+
+}
+
+.carousel-container {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .carousel {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    animation: scroll 20s linear infinite;
+  }
+  
+  .card {
+    flex: 0 0 calc(100% / 3);  /* takes up 100/3% of space in the carousel container*/
+    height: 100%; /* takes up the entire height*/
+    margin-right: 10px;
+    background-color: white;
+  }
+  
+  .card:last-child {
+    margin-right: 0;
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(calc(-100% + (100% / 3)));
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  img{
+    height: 250px;
+    width: 250px;
+  }
+
+  #card-content{
+    height: 90%;
+    width: 90%;
+    padding: 5%;  
+
+  }
+
+  div.main-text{
+    background-color: rgb(249,249,249);
+    height: 50%;
+    width:100%;
+  }
+
+  p.main-text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    font-size: 1.4em;
+    word-spacing: 4px;
+    line-height: 1.2em;
+    color: #1338BE; 
+    padding: 8%;
+    text-align: left;
+    
+  }
+  
+  
+  
+  
+  
+  

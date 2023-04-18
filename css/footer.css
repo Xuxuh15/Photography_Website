@@ -1,0 +1,26 @@
+a:hover{
+    color: cyan; 
+}
+p.footer{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:black;
+    text-align: center;
+    display: inline;
+    height: 100%; 
+    padding-right: 1em;
+    padding-left: 0.5em; 
+    margin: 1em; 
+
+}
+
+article.footer{
+    margin: auto; 
+}
+
+footer{
+    background-color: lightgray;
+    height: 20px; 
+    margin-top: 20%;
+
+
+}
